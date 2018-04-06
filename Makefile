@@ -8,5 +8,5 @@ test:
 	python testcases/tests.py
 
 codacy:
-	python pylama
+	pylama
 
