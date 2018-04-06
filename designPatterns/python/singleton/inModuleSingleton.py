@@ -1,3 +1,8 @@
+# to use the singleton, just do:
+# from inModuleSingleton import standard_singleton
+# and use it when you want
+
+
 class SingletonBase:
     def __init__(self, *args, **kwargs):
         super(SingletonBase, self).__init__(*args, **kwargs)
@@ -8,7 +13,3 @@ class SingletonBase:
 
 if not hasattr(globals(), 'standard_singleton'):
     standard_singleton = SingletonBase()
-
-# to use the singleton, just do:
-# from inModuleSingleton import standard_singleton
-# and use it when you want
