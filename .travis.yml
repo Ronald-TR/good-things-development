@@ -9,3 +9,5 @@ install:
 script:
    - make test
    - make codacy
+
+env: PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/tests:$TRAVIS_BUILD_DIR/foop
