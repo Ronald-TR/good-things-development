@@ -1,0 +1,3 @@
+from inModuleSingleton import standard_singleton
+
+print(standard_singleton)
