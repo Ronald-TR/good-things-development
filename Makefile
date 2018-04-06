@@ -3,9 +3,10 @@ setup:
 	pipenv --python=python3
 	pipenv install
 	pipenv install --dev
+	export PYTHONPATH=`pwd`
 
 test:
-	python testcases/tests.py
+	python tests/tests.py
 
 codacy:
 	pylama

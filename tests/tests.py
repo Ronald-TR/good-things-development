@@ -1,6 +1,4 @@
-from designPatterns.\
-    python.singleton import main_singletons
-
+from designPatterns.python.singleton import main_singletons
 import unittest
 
 
