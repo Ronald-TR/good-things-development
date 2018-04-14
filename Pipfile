@@ -9,6 +9,7 @@ name = "pypi"
 
 requests = "*"
 pylama = "*"
+coverage = "*"
 
 
 [dev-packages]
