@@ -1,3 +1,4 @@
+PYTHONPATH := `pwd`
 setup:
 	pip install pipenv
 	pipenv install
@@ -10,3 +11,6 @@ test:
 codacy:
 	pylama
 
+env:
+	@export PYTHONPATH=${PYTHONPATH}
+	@echo ${PYTHONPATH};
