@@ -1,11 +1,9 @@
 from designPatterns.python.singleton import main_singletons
 import unittest
-import sys
 import os
+import sys
 
-
-myPath = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, myPath + '/../')
+sys.path.append(os.getcwd())
 
 
 class TestBriefCase(unittest.TestCase):

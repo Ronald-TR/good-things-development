@@ -3,12 +3,8 @@ setup:
 	pipenv install
 	pipenv install --dev
 
-test:	
+test:
 	python tests/tests.py
 
 codacy:
 	pylama
-
-env:
-	@export PYTHONPATH=${PYTHONPATH}
-	@echo ${PYTHONPATH};
