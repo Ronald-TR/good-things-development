@@ -1,9 +1,5 @@
 from designPatterns.python.singleton import main_singletons
 import unittest
-import os
-import sys
-
-sys.path.append(os.getcwd())
 
 
 class TestBriefCase(unittest.TestCase):
